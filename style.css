@@ -1,0 +1,198 @@
+/* Pre-loader */
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url('images/Dual\ Ring-1s-200px.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+  animation: loader 5s infinite ease-out;
+}
+
+/* Smooth Scrolling */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Scroll To Top Button */
+
+#btnContact{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #E91E63;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#btnContact:active{
+    background-color: red;
+}
+
+/* Navbar */
+#nav{
+    text-transform: uppercase;
+    letter-spacing: 0.1ex;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: #E91E63;
+}
+
+/* About Me */
+.col-text{
+    align-items: center;
+    padding-top: 150px;
+}
+
+/*All images in the page */
+img{
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.41);
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.41);
+}
+
+/*My Resume Button*/
+.btn, .btn:hover {
+    margin-top: 25px;
+}
+
+.btn {
+    background: #E91E63;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    border-color: violet;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
+    15px 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background: pink;
+    color: #E91E63;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.2),
+    0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Scroll To Top Button */
+
+#btnScrollToTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #E91E63;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#btnScrollToTop:active{
+    background-color: red;
+}
+
+/* Tech Stack */
+.progress {
+    width: 150px;
+    height: 150px;
+    background: none;
+    position: relative;
+  }
+  
+  .progress::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 6px solid #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .progress .progress-left {
+    left: 0;
+  }
+  
+  .progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+  }
+  
+  .progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+  }
+  
+  .progress .progress-right {
+    right: 0;
+  }
+  
+  .progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+  }
+  
+  .progress .progress-value {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSE
+  * ==========================================
+  *
+  */
+  
+  .rounded-lg {
+    border-radius: 1rem;
+  }
+  
+  .text-gray {
+    color: #aaa;
+  }
+  
+  div.h4 {
+    line-height: 1rem;
+  }

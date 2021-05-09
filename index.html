@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
+
+    <!-- Material Icons CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Rohan Das | Portfolio</title>
+  </head>
+  <body onload="myFunction()">
+    <!-- Loading -->
+    <div id="loading"></div>
+    
+    <!-- Scroll To Top Button -->
+    <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    <!-- Scroll To Top Button End -->
+
+    <!-- Contact Button -->
+    <button id="btnContact">
+        <i class="material-icons">call</i>
+    </button>
+    <!-- Contact Button End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light font-weight-bold" id="nav">
+      <a href="#" class="navbar-brand">
+          <img src="https://www.logolynx.com/images/logolynx/09/0912234b1c5fd9d05bdfc201eafcbcea.png" width="45" alt="" class="d-inline-block align-middle mr-2">
+          <span>Rohan <span style="color: #E91E63;">D</span>as<span style="color: #E91E63;">.</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#nav">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#exp">Experience</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#project">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Home Section Start -->
+    <section class="py-5 px-2" id="home">
+      <div class="container">
+          <div class="row full-screen">
+              <div class="col-lg-6 text-center justify-content-center d-flex align-items-center flex-column p-4">
+                  <p style="font-family: 'Lobster', cursive;">Hello,</p>
+                  <h1 style="font-family: 'Girassol', cursive;">I'm Rohan</h1>
+                  <h2 style="font-family: 'Girassol', cursive;">Web Designer and Developer</h2>
+                  <a type="button" class="btn btn-secondary" href="res/Rohan's Resume.pdf" download><i class="fa fa-download"></i> Download Resume</a>
+              </div>
+              <div class="col-lg-6 home-img justify-content-center d-flex align-items-center p-0">
+                  <div class="img-box">
+                    <img src="images/IMG_20210117_185112.jpg" height="450vh" width="300vw" alt="rohan" class="mx-auto d-block">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- Home Section End -->
+
+    <!-- About Section Start -->
+    <section class="py-5 bg-light" id="about">
+      <div class="container">
+          <h2 class="mb-4" style="color: #E91E63; text-align: center; font-weight: bolder;">About Me</h2>
+          <div class="row justify-content-between">
+              <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                  <div class="about-img">
+                    <img src="images/study-table.jpg" height="350vh" width="300vw" alt="rohan" class="mx-auto d-block">
+                  </div>
+              </div>
+              <div class="col-lg-6 py-4 d-flex justify-content-center align-items-center">
+                  <p class="text-justify" style="font-family: 'Noto Sans JP', sans-serif; font-size: large; font-weight: bold;">I am a 2nd Year (4th Semester) student pursuing my B. Tech degree in IT from The Institute of Engineering and Management, Kolkata. I have a great interest in technology and am passionate about coding. I also have a keen interest in Web Development and Android Development and wish to learn and gain experience in these fields. I strongly believe in pairing technology with creativity to create efficient and powerful tools to shape a smarter future. A finance enthusiast with a strong belief that finance is the backbone of every company. I believe work ethic is a talent and there is a smart way to work hard that is far more important than the number of hours you put in.</p>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Technology Stack Section Start -->
+    <section class="p-5 skills" id="skills">
+        <h2 style="color: #E91E63; text-align: center; font-weight: bolder;">MY SKILLS</h2>
+        <div class="container py-5">
+            <div class="row">
+              <div class="col-xl-3 col-lg-6 mb-4">
+                <div class="bg-white rounded-lg p-5 shadow">
+                  <h2 class="h6 font-weight-bold text-center mb-4">HTML5 / CSS3</h2>
+          
+                  <!-- Progress bar 1 -->
+                  <div class="progress mx-auto" data-value='77.5'>
+                    <span class="progress-left">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                      <div class="h2 font-weight-bold">77.5<sup class="small">%</sup></div>
+                    </div>
+                  </div>
+                  <!-- Progress bar 1 end -->
+                </div>
+              </div>
+          
+              <div class="col-xl-3 col-lg-6 mb-4">
+                <div class="bg-white rounded-lg p-5 shadow">
+                  <h2 class="h6 font-weight-bold text-center mb-4">Bootstrap 4</h2>
+          
+                  <!-- Progress bar 2 -->
+                  <div class="progress mx-auto" data-value='75'>
+                    <span class="progress-left">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                      <div class="h2 font-weight-bold">75<sup class="small">%</sup></div>
+                    </div>
+                  </div>
+                  <!-- Progress bar 2 end -->
+                </div>
+              </div>
+          
+              <div class="col-xl-3 col-lg-6 mb-4">
+                <div class="bg-white rounded-lg p-5 shadow">
+                  <h2 class="h6 font-weight-bold text-center mb-4">JavaScript / jQuery</h2>
+          
+                  <!-- Progress bar 3 -->
+                  <div class="progress mx-auto" data-value='60'>
+                    <span class="progress-left">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                      <div class="h2 font-weight-bold">60<sup class="small">%</sup></div>
+                    </div>
+                  </div>
+                  <!-- Progress bar 3 end -->
+                </div>
+              </div>
+          
+              <div class="col-xl-3 col-lg-6 mb-4">
+                <div class="bg-white rounded-lg p-5 shadow">
+                  <h2 class="h6 font-weight-bold text-center mb-4">PHP</h2>
+          
+                  <!-- Progress bar 4 -->
+                  <div class="progress mx-auto" data-value='20'>
+                    <span class="progress-left">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                      <div class="h2 font-weight-bold">20<sup class="small">%</sup></div>
+                    </div>
+                  </div>
+                  <!-- Progress bar 4 end -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-xl-3 col-lg-6 mb-4">
+                <div class="bg-white rounded-lg p-5 shadow">
+                  <h2 class="h6 font-weight-bold text-center mb-4">Android Studio</h2>
+          
+                  <!-- Progress bar 1 -->
+                  <div class="progress mx-auto" data-value='30'>
+                    <span class="progress-left">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                      <div class="h2 font-weight-bold">30<sup class="small">%</sup></div>
+                    </div>
+                  </div>
+                  <!-- Progress bar 1 end -->
+                </div>
+              </div>
+          
+              <div class="col-xl-3 col-lg-6 mb-4">
+                <div class="bg-white rounded-lg p-5 shadow">
+                  <h2 class="h6 font-weight-bold text-center mb-4">C/C++</h2>
+          
+                  <!-- Progress bar 2 -->
+                  <div class="progress mx-auto" data-value='80'>
+                    <span class="progress-left">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                      <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+                    </div>
+                  </div>
+                  <!-- Progress bar 2 end -->
+                </div>
+              </div>
+          
+              <div class="col-xl-3 col-lg-6 mb-4">
+                <div class="bg-white rounded-lg p-5 shadow">
+                  <h2 class="h6 font-weight-bold text-center mb-4">Python</h2>
+          
+                  <!-- Progress bar 3 -->
+                  <div class="progress mx-auto" data-value='50'>
+                    <span class="progress-left">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                      <div class="h2 font-weight-bold">50<sup class="small">%</sup></div>
+                    </div>
+                  </div>
+                  <!-- Progress bar 3 end -->
+                </div>
+              </div>
+          
+              <div class="col-xl-3 col-lg-6 mb-4">
+                <div class="bg-white rounded-lg p-5 shadow">
+                  <h2 class="h6 font-weight-bold text-center mb-4">Photoshop</h2>
+          
+                  <!-- Progress bar 4 -->
+                  <div class="progress mx-auto" data-value='30'>
+                    <span class="progress-left">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar" style="border-color:#E91E63;"></span>
+                    </span>
+                    <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                      <div class="h2 font-weight-bold">30<sup class="small">%</sup></div>
+                    </div>
+                  </div>
+                  <!-- Progress bar 4 end -->
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- Technology Stack Section End -->
+
+    <!-- Experience Section Start -->
+    <section class="exp bg-light py-5 px-2" id="exp">
+      <h2 style="color: #E91E63; text-align: center; font-weight: bolder;">MY EXPERIENCE</h2>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 py-4 ">
+                  <img src="images/codespeedy.png" alt="codespeedy" class="rounded-circle mx-auto d-block">
+                  <br><br>
+                  <p style="font-family: 'Arimo', sans-serif; font-weight: bolder;" class="text-center">CodeSpeedy Technology Pvt Ltd</p>
+                  <p style="font-family: 'Arimo', sans-serif; font-weight: bolder;" class="text-center">3rd Feb, 2021 - 8th March, 2021</p>
+                  <p class="text-center">Writing computer programming tutorials and articles(all related to C++ and Qt Development) for CodeSpeedy.com which is an online coding solution website.</p>
+              </div>
+              <div class="col-lg-3 py-4">
+                  <img src="images/rs.jpg" alt="rs" class="rounded-circle mx-auto d-block">
+                  <br><br>
+                  <p style="font-family: 'Arimo', sans-serif; font-weight: bold;" class="text-center">REDE Scalable Energy Management Pvt Ltd</p>
+                  <p style="font-family: 'Arimo', sans-serif; font-weight: bolder;" class="text-center">15th April, 2021 - Present</p>
+                  <p class="text-center">I am working here as an Embedded System Developer. I am working on Socket Programming in C Language.</p>
+              </div>
+              <div class="col-lg-3 py-4">
+                  <img src="images/coderteq.png" alt="coderteq" class="rounded-circle mx-auto d-block">
+                  <br><br>
+                  <p style="font-family: 'Arimo', sans-serif; font-weight: bold;" class="text-center">Coderteq Information Technology Solutions</p>
+                  <p style="font-family: 'Arimo', sans-serif; font-weight: bolder;" class="text-center">25th April, 2021 - Present</p>
+                  <p class="text-center">I joined Coderteq IT Solutions as a Junior Web Developer Intern on 25th April. I am working on Live Client Projects.</p>
+              </div>
+              <div class="col-lg-3 py-4">
+                  <img src="images/sparks.png" alt="sparks" class="rounded-circle mx-auto d-block">
+                  <br><br>
+                  <p style="font-family: 'Arimo', sans-serif; font-weight: bold;" class="text-center">The Sparks Foundation</p>
+                  <p style="font-family: 'Arimo', sans-serif; font-weight: bolder;" class="text-center">26th April, 2021 - Present</p>
+                  <p class="text-center">I joined The Sparks Foundation as a Web Development & Designing intern in its Graduate Rotational Internship Program (GRIP) on 26th April. I am working on Real Life Projects.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+    <!-- Experience Section End -->
+
+    <!-- Project Section Start -->
+    <section class="p-5 project" id="project">
+        <h2 style="color: #E91E63; text-align: center; font-weight: bolder;">MY PROJECTS</h2><br><br>
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+        <div class="controls-top text-center">
+        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+        </div>
+  
+        <ol class="carousel-indicators">
+        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+        <li data-target="#multi-item-example" data-slide-to="1"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+            <!-- First Slide -->
+            <div class="carousel-item active">
+        
+                <div class="col-md-3" style="float:left">
+                <div class="card mb-2">
+                    <img class="card-img-top"
+                    src="images/projects/portfolio.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h4 class="card-title">My Portfolio Website</h4>
+                    <a class="btn btn-primary" href="https://rohandas.epizy.com/">Website Link</a>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="col-md-3" style="float:left">
+                <div class="card mb-2">
+                    <img class="card-img-top"
+                    src="images/projects/qt.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h4 class="card-title">C++ and Qt Projects</h4>
+                    <a class="btn btn-primary" href="https://coderspacket.com/contributor/rohandas2001">Link</a>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="col-md-3" style="float:left">
+                <div class="card mb-2">
+                    <img class="card-img-top"
+                    src="images/projects/flappybird.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h4 class="card-title">Flappy Bird in Python</h4>
+                    <a class="btn btn-primary" href="https://github.com/rohan26062001/Flappy-Bird-in-Python">Github Link</a>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="col-md-3" style="float:left">
+                <div class="card mb-2">
+                    <img class="card-img-top"
+                    src="images/projects/snake_game_in_C.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h4 class="card-title">Snake Game in C</h4>
+                    <a class="btn btn-primary" href="https://github.com/rohan26062001/Snake-Game-in-C">Github Link</a>
+                    </div>
+                </div>
+                </div>
+        
+            </div>
+            <!--/.First slide-->
+        
+            <!--Second slide-->
+            <div class="carousel-item">
+        
+                <div class="col-md-3" style="float:left">
+                <div class="card mb-2">
+                    <img class="card-img-top"
+                    src="images/projects/court-counter.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h4 class="card-title">Court Counter App</h4>
+                    <a class="btn btn-primary" href="https://github.com/rohan26062001/Android-Projects/tree/main/Training%20Projects/5">Github Link</a>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="col-md-3" style="float:left">
+                <div class="card mb-2">
+                    <img class="card-img-top"
+                    src="images/projects/bp.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h4 class="card-title">Track Blood Pressure</h4>
+                    <a class="btn btn-primary" href="https://github.com/rohan26062001/Android-Projects/tree/main/Self%20Projects/2.%20Track%20Your%20BP%20App">Github Link</a>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="col-md-3" style="float:left">
+                <div class="card mb-2">
+                    <img class="card-img-top"
+                    src="images/projects/coming soon.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h4 class="card-title">Project is Coming Soon</h4>
+                    <a class="btn btn-primary" href="#">Github Link</a>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="col-md-3" style="float:left">
+                <div class="card mb-2">
+                    <img class="card-img-top"
+                    src="images/projects/coming soon.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h4 class="card-title">Project is Coming Soon</h4>
+                    <a class="btn btn-primary" href="#">Github Link</a>
+                    </div>
+                </div>
+                </div>
+        
+            </div>
+            <!--/.Second slide-->
+    
+        
+    
+        </div>
+        <!--/.Slides-->
+  
+    </div>
+    <!--/.Carousel Wrapper-->
+    </section>
+    <!-- Project Section End -->
+
+    <!-- Contact Section Start -->
+    <section class="p-5 contact bg-light" id="contact">
+        <h2 style="color: #E91E63; text-align: center; font-weight: bolder;">LETS GET IN TOUCH</h2><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <h4 class="text-center">Address & Landmark</h4><br>
+                    <p><i class="fas fa-road"></i> 49, Gadadhar Bhatta Road, Suryanagar, Bhattanagar, Liluah, Howrah, Pin - 711203</p>
+                    <p><i class="fas fa-landmark"></i> Near Suryanagar Maitry Sangha</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h4 class="text-center">Email and WhatsApp</h4><br>
+                    <i class="fas fa-envelope-open"></i> <a href="mailto:rohan.das.official.01@gmail.com">rohan.das.official.01@gmail.com</a><br><br>
+                    <i class="fas fa-envelope-open"></i> <a href="mailto:rohan.das.official.01@gmail.com">rohandasofficial.01@yahoo.com</a><br><br>
+                    <i class="fab fa-whatsapp"></i> +91 6289846584
+                    <br>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center align-items-center px-2 py-4">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.68099365842!2d88.32217031537178!3d22.628384736622493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89df69d0f7d87%3A0x1665f72a9535bf36!2s49%2C%20Gadadhar%20Bhatta%20Rd%2C%20Bhatta%20Nagar%2C%20Liluah%2C%20Howrah%2C%20West%20Bengal%20711203!5e0!3m2!1sen!2sin!4v1620198455385!5m2!1sen!2sin" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" class="mx-auto d-block"></iframe><br><br><br>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-12">
+                  <section class="mb-4" style="text-align: center;">
+                    <!-- Facebook -->
+                    <a style="background-color: blue;" class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/rohandasofficial" role="button"><i class="fab fa-facebook-f"></i></a>
+      
+                    <!-- Twitter -->
+                    <a style="background-color: skyblue" class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/Rohan51316422" role="button"><i class="fab fa-twitter"></i></a>
+      
+                    <!-- Instagram -->
+                    <a style="background-color: #d64161" class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/rohan.das_official/" role="button"><i class="fab fa-instagram"></i></a>
+      
+                    <!-- Linkedin -->
+                    <a style="background-color: #034f84" class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/rohan-das-3423a5184/" role="button"><i class="fab fa-linkedin-in"></i></a>
+      
+                    <!-- Github -->
+                    <a style="background-color: black" class="btn btn-outline-light btn-floating m-1" href="https://github.com/rohan26062001" role="button"><i class="fab fa-github"></i></a><br><br><br>
+                    <p>©rohandas. All Rights Reserved</p>
+                  </section>
+              </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        // $(document).ready(function(){
+        // 	$('div#loading').removeAttr('id');
+        // });
+        var preloader = document.getElementById("loading");
+        // window.addEventListener('load', function(){
+        // 	preloader.style.display = 'none';
+        // 	})
+
+        function myFunction(){
+          preloader.style.display = 'none';
+        };
+
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+        btnScrollToTop.addEventListener('click', function(){
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            });
+        });
+
+        const btnContact = document.querySelector("#btnContact");
+
+        btnContact.addEventListener('click', function(){
+            window.location.replace("https://docs.google.com/forms/d/e/1FAIpQLScXdRJOTr5plyjinjUWOdkRNxCi-NzL2V_qO99H1pXKhXpImQ/viewform?usp=sf_link");
+        });
+
+        $(function() {
+
+        $(".progress").each(function() {
+
+        var value = $(this).attr('data-value');
+        var left = $(this).find('.progress-left .progress-bar');
+        var right = $(this).find('.progress-right .progress-bar');
+
+        if (value > 0) {
+            if (value <= 50) {
+            right.css('transform', 'rotate(' + percentageToDegrees(value) + 'deg)')
+            } else {
+            right.css('transform', 'rotate(180deg)')
+            left.css('transform', 'rotate(' + percentageToDegrees(value - 50) + 'deg)')
+            }
+        }
+
+        })
+
+        function percentageToDegrees(percentage) {
+
+        return percentage / 100 * 360
+
+        }
+
+        });
+    </script>
+  </body>
+</html>
